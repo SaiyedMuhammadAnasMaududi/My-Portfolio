@@ -30,25 +30,7 @@ export default function Home() {
     </div>
     
     </div>
-    {/* <section>
-<div className="background w-full min-w-24 min-h-screen" >
-  <h1 className="text-5xl font-bold text-white cursive flex justify-center pt-3  underline"> ABOUT ME :</h1>
-  <div ref={resumeRef}>
-<Resume ></Resume>
-</div>
-
-<div className="w-48 h-24  bg-cyan-800 border-8 flex justify-center items-center   resumeradius relative ml-[42%] mt-5">
-  <button className="bg-cyan-800 h-16 w-30 resumeradius1 text-gray-50  text-1 m-5" onClick={handleDownloadPDF}> DOWNLOAD CV</button> 
-  
-</div>
-</div>
-<hr  className="border-4 border-red-950"/></section>
-<section>
-
-<div className="background w-full min-w-24 min-h-screen">
-
-</div>
-</section> */}
+    
     </div>
       )}
 
