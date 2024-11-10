@@ -5,45 +5,8 @@ import Image from 'next/image';
 import AnimatedText from "./components/typing";
 import Resume from "./components/resume";
 export default function Home() {
-  // const resumeRef = useRef<HTMLDivElement | null>(null); // Specify the ref can be null
-
-  // // Function to generate PDF
-  // const handleDownloadPDF = async () => {
-  //   if (!resumeRef.current) return; 
+ 
   
-  //   const element = resumeRef.current;
-  
-   
-  //   const canvas = await html2canvas(element, {
-  //     backgroundColor: null, 
-  //     scale: 2, 
-  //     useCORS: true, 
-  //   });
-  
-  //   const data = canvas.toDataURL('image/png');
-  
-  //   const pdf = new jsPDF('p', 'mm', 'a4');
-  
-   
-  //   const imgProperties = pdf.getImageProperties(data);
-  //   const pdfWidth = pdf.internal.pageSize.getWidth();  
-  //   const pdfHeight = (imgProperties.height * pdfWidth) / imgProperties.width; 
-    
-  //   const contentHeight = canvas.height;
-  //   const contentWidth = canvas.width;
-  
-    
-  //   const scale = pdfWidth / contentWidth;
-    
-  
-  //   const adjustedHeight = contentHeight * scale;
-  
-    
-  //   pdf.addImage(data, 'PNG', 0, 0, pdfWidth, adjustedHeight);
-  
-  
-  //   pdf.save('Resume.pdf');
-  // }
   return (
     <div>
     <div className="flex flex-col pt-6 h-screen ">
