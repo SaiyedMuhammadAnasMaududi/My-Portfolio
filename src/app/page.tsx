@@ -4,9 +4,6 @@ import Header from "./components/Header";
 import Image from 'next/image';
 import AnimatedText from "./components/typing";
 import Resume from "./components/resume";
-import { useRef } from 'react';
-import html2canvas from 'html2canvas';
-import jsPDF from 'jspdf'
 export default function Home() {
   // const resumeRef = useRef<HTMLDivElement | null>(null); // Specify the ref can be null
 
