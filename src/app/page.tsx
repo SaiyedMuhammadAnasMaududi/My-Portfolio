@@ -3,7 +3,6 @@
 import Header from "./components/Header";
 import Image from 'next/image';
 import AnimatedText from "./components/typing";
-import Resume from "./components/resume";
 export default function Home() {
  
   
